@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/rColorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="R: 0"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <SeekBar
+        android:id="@+id/rColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/gColorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="G: 0"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <SeekBar
+        android:id="@+id/gColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/bColorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="B: 0"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <SeekBar
+        android:id="@+id/bColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/TextoHex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="#"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <View
+        android:id="@+id/colorSample"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+
+</LinearLayout>
